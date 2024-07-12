@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+width: 21%;
+background-color:black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 15px;
+font-family: Helvetica;
+border-radius: 5px;
+box-shadow: 0 0 5px rgb(85, 83, 83);
+}
+
+.logo>img{
+    /* background-color: rgba(0, 0, 0, 0.774); */
+    
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 5px rgb(95, 94, 94);
+   border-radius: 20px;
+}
+.content{
+ text-align: center;
+ padding: 15px 10px;
+ padding-top: 55px;
+ margin-bottom: 10px;
+ margin-top: 25px;
+    color: white;
+    background:linear-gradient(to right bottom,rgb(5, 5, 5),rgb(53, 48, 48));
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(83, 82, 82);
+}
+
+.content>img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: fixed;
+    top: 23%;
+    left: 33%;
+    border: 2px solid white;
+}
+.content>h2{
+    font-weight: 700;
+    color: rgb(114, 111, 111);
+    margin-top: 10px;
+}
+.content>h3{
+    font-weight: 500;
+}
+.content>p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.email{
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(54, 54, 54);
+    background:linear-gradient(to top left,rgb(5, 5, 5),rgb(43, 41, 41));
+}
+.phone{
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgb(54, 54, 54);
+    background:linear-gradient(to top left,rgb(5, 5, 5),rgb(53, 48, 48));
+}
+.website{
+    color: white;
+    text-align: center;
+    background:linear-gradient(to top left,rgb(5, 5, 5),rgb(53, 48, 48));
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(54, 54, 54);
+}
