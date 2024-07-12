@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: helvetica;
+    background-color: rgb(12, 12, 12);
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: gray;
+
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links>a{
+    color: rgb(161, 157, 157);
+    text-decoration: none;
+    margin: 20px;
+}
+.links>img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.icons>i{
+    margin: 15px;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+main>p{
+ color: rgb(168, 161, 161);
+ margin-left: 10px;
+}
+.favourites{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favourites>img{
+    width: 17%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.Netflix,.youtube{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Netflix>img,.youtube>img{
+    width: 23%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}

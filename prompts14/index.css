@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 70%;
+    height: 85%;
+    background: linear-gradient(to right bottom,rgb(248, 244, 244),rgb(226, 224, 224),rgb(165, 63, 233));
+    margin: auto;
+    margin-top: 40px;
+    font-family: helvetica;
+    text-align: center;
+}
+.container>h2{
+    position: absolute;
+    top: 40%;
+    left:0%;
+    transform: rotate(-90deg);
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(204, 202, 202);
+}
+.container>p{
+    font-size: 20px;
+    font-family:cursive;
+    font-style: italic;
+    padding-top: 8%;
+}
+.container>h1{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: rgb(49, 10, 80);
+}
+.container>small{
+    color: rgb(62, 16, 100);
+    font-weight: 700;
+}
+.buttons{
+    margin-top: 40px;
+
+}
+.buttons>button{
+    padding: 15px  20px;
+    font-size: 35px;
+    color: rgb(79, 23, 133);
+    border-radius: 10px;
+    border: none;
+    text-decoration: line-through;
+    text-decoration-color: white;
+    box-shadow: 0 2px 5px rgb(175, 174, 174);
+}
+.buttons>span{
+    font-size: 50px;
+    margin: 0 8px;
+}
+.container>h4{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 40px 0;
+}
+.inputs{
+    margin: 30px;
+}
+.inputs>input{
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgb(177, 175, 175);
+}
+.inputs>button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(88, 37, 136);
+    border: none;
+    border-radius: 20px;
+}
+.container>h6{
+    font-size: 14px;
+    color: rgb(228, 224, 224);
+    font-weight: 500;
+}

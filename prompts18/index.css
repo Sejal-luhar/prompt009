@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: helvetica;
+}
+.aside{
+    height: 100%;
+    width: 20%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: 1px solid grey;
+    padding-bottom: 10%;
+}
+.aside>img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.main-container{
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+}
+.main-container>p{
+    margin: 5px 0;
+}
+.usage-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.first, .second{
+    height: 100%;
+}
+.first{
+    width: 50%;
+    background-color: rgb(44, 43, 43);
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.bars{
+    width: 90%;
+    height: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.mon,.tues,.wed,.thur,.fri,.sat,.sun{
+    background-color: rgb(77, 77, 228);
+    width: 10%;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.first>p{
+    font-size: 16px;
+    width: 90%;
+    margin:0 20px;
+    margin-bottom: 10px;
+}
+.first>p>span{
+    margin: 21px;
+}
+.mon{
+    margin-top: 46%;
+    height: 20px;
+}
+.tues{
+    margin-top: 40%;
+    height: 50px;
+}
+.wed{
+    margin-top: 20%;
+    height: 150px;
+}
+.thur{
+    margin-top: 18%;
+    height: 160px;
+}
+.fri{
+    margin-top: 30%;
+    height: 100px;
+}
+.sat{
+    margin-top: 14%;
+    height: 180px;
+}
+.sun{
+    margin-top: 22%;
+    height: 140px;
+}
+.second{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.second1, .second2{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    text-align: center;
+    padding: 10px;
+}
+.second1>h2{
+    color: rgb(92, 92, 211);
+    margin: 7px 0;
+    margin-bottom: 15px;
+}
+.second1>small{
+    color: orange;
+}
+.second2>h4, .second2>h5{
+    margin: 10px 0;
+}
+.second2>h5{
+    color: red;
+}
+.apps-usage{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.app1{
+    height: 100%;
+    width: 50%;
+    padding: 20px 0;
+}
+.app2{
+    height: 85%;
+    width: 40%;
+    background-color:rgb(44, 43, 43) ;
+    margin-top: 20px;
+    padding: 10px;
+}
+.app1>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0  10px;
+}
+.app1>nav>button{
+    padding: 3px 6px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+}
+.social1,.social2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.social2{
+    margin-top: 20px;
+}
+.all-apps,.instagram, .spotify, .chrome{
+    width: 45%;
+    height: 100%;
+    background-color:rgb(44, 43, 43) ;
+    position: relative;
+    text-align: center;
+}
+.img{
+    width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.img>img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: skyblue;
+    margin-left: 30%;
+}
+.blue{
+    height: 50px;
+    width:120px;
+    background-color: blueviolet;
+    transform: rotate(20deg);
+}
+.yellow{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    transform: rotate(52deg);
+}
+.colors{
+    width: 80%;
+    margin:20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.yellow-box,.violet-box,.blue-box{
+    height: 10px;
+    width: 10px;
+}
+.yellow-box{
+    background-color: yellow;
+}
+.violet-box{
+    background-color: blueviolet;
+}
+.blue-box{
+    background-color: skyblue;
+}

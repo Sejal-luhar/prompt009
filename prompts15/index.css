@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(224, 223, 220);
+}
+.on-container, .off-container{
+    height: 85%;
+    width: 20%;
+    background-color: blue;
+    border-radius: 20px;
+}
+.on-container{
+    background-image: url(https://plus.unsplash.com/premium_vector-1716938675563-a83eeccd35b6?bg=FFFFFF&w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VucmlzZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 3px 5px rgb(168, 168, 168);
+}
+.off-container{
+    background-image: url(https://plus.unsplash.com/premium_vector-1716905507826-863b41764357?bg=FFFFFF&w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9vbnxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 5px rgb(168, 168, 168);
+}
+.on-button{
+    width: 50%;
+    height: 8%;
+    background: radial-gradient(rgba(105, 105, 105, 0.493) , rgba(0, 0, 0, 0.37));
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    border-radius: 20px;
+    box-shadow: 0 0  5px rgb(231, 229, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle1,.circle2{
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(to right bottom, rgb(238, 214, 77) , rgb(241, 200, 13));
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 3px;
+    margin-left: 7px;
+}
+.on-button>h2{
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+}
+.off-button{
+    width: 50%;
+    height: 8%;
+    background: radial-gradient(rgba(105, 105, 105, 0.384) , rgba(0, 0, 0, 0.37));
+    position: absolute;
+    border-radius: 20px;
+    top: 80%;
+    left: 25%;
+    box-shadow: 0 0  5px rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.off-button>h2{
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+}
+.circle2{
+    background: radial-gradient(rgb(245, 244, 244),rgb(209, 208, 208),white);
+}
+
